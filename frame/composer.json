@@ -1,0 +1,20 @@
+{
+    "name": "39500/frame",
+    "authors": [
+        {
+            "name": "wangxu",
+            "email": "395003989@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "core\\":"core",
+            "app\\":"app",
+            "system\\":"system"
+        },
+        "files":[
+            "system/functions.php"
+        ]
+    }
+}
